@@ -1,5 +1,7 @@
+import { Heading } from "@chakra-ui/core";
+
 export default function Home() {
   return (
-    <h1>Maick souza</h1>
+    <Heading>Maick souza</Heading>
   )
 }
