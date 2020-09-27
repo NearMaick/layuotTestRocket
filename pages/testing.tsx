@@ -1,4 +1,4 @@
-import { Button, Flex, Heading, Link, Switch, useColorMode } from "@chakra-ui/core";
+import { Button, Flex, Heading, Link, useColorMode } from "@chakra-ui/core";
 
 export default function testing() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -22,10 +22,7 @@ export default function testing() {
           Toggle {colorMode === "light" ? "Dark" : "Light"}
         </Button>
 
-        <Switch 
-          onChange={toggleColorMode} 
-          defaultIsChecked 
-        />
+        
         <Link href="/">Voltar</Link>
       </Flex>
     </Flex>

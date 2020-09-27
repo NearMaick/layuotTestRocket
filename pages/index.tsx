@@ -1,4 +1,4 @@
-import { Button, Flex, Heading, Link , Switch, useColorMode } from "@chakra-ui/core";
+import { Text, Flex, Heading, Link , Switch, useColorMode } from "@chakra-ui/core";
 
 export default function Home() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -15,12 +15,11 @@ export default function Home() {
       >
         <Heading>Maick souza</Heading>
 
-        <Button 
-          onClick={toggleColorMode} 
+        <Text 
           width={32}
         >
           Toggle {colorMode === "light" ? "Dark" : "Light"}
-        </Button>
+        </Text>
 
         <Switch 
           onChange={toggleColorMode} 
